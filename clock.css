@@ -5,11 +5,23 @@
 	width: 200px;
 	background: url(images/clock.png) no-repeat;	
 	background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#centerBolt {
+    position: relative;
+    height: 13px;
+    width: 13px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 50%;
+    
+    
+  }
 
 #hr,#min,#sec {
 	position: absolute;
-	background: rgb(28, 27, 28);
+	
 	border-radius: 15px;
 	transform-origin: bottom;
 }
@@ -19,6 +31,7 @@
 	height: 25%;
 	top: 25%;
 	left: 48.85%;
+    background: rgb(11, 10, 11);
 	
 }
 
@@ -27,7 +40,7 @@
 	height: 30%;
 	top: 19%;
 	left: 48.9%;
-	
+	background: rgb(7, 7, 7);
 }
 
 #sec {
@@ -35,5 +48,6 @@
 	height: 40%;
 	top: 9%;
 	left: 49.25%;
-	
+	background: rgb(227, 39, 64);
+    opacity: 0.8;
 }
