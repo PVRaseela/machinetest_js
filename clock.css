@@ -1,0 +1,39 @@
+#clock {
+	position: relative;
+	margin: auto;
+	height: 200px;	
+	width: 200px;
+	background: url(images/clock.png) no-repeat;	
+	background-size: 100%;
+}
+
+#hr,#min,#sec {
+	position: absolute;
+	background: rgb(28, 27, 28);
+	border-radius: 15px;
+	transform-origin: bottom;
+}
+
+#hr {
+	width: 5px;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	
+}
+
+#min {
+	width: 3px;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	
+}
+
+#sec {
+	width: 1.5px;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	
+}
